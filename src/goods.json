@@ -1,0 +1,1964 @@
+{
+  "1": {
+    "level": "A",
+    "serialNumber": 1,
+    "fullName": "人民币",
+    "shortName": "rmb",
+    "marketPrice": 420168,
+    "acquisitionPath": [
+      2
+    ],
+    "bagLimitation": null,
+    "warehouseLimitation": null
+  },
+  "2": {
+    "level": "A",
+    "serialNumber": 2,
+    "fullName": "三国币",
+    "shortName": "币",
+    "marketPrice": 1,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 200000,
+    "warehouseLimitation": 200000
+  },
+  "3": {
+    "level": "A",
+    "serialNumber": 3,
+    "fullName": "三国点",
+    "shortName": "点",
+    "marketPrice": 40000,
+    "acquisitionPath": [
+      2
+    ],
+    "bagLimitation": null,
+    "warehouseLimitation": null
+  },
+  "4": {
+    "level": "A",
+    "serialNumber": 4,
+    "fullName": "五铢",
+    "shortName": "",
+    "marketPrice": null,
+    "acquisitionPath": [
+      3
+    ],
+    "bagLimitation": null,
+    "warehouseLimitation": null
+  },
+  "5": {
+    "level": "A",
+    "serialNumber": 5,
+    "fullName": "活力",
+    "shortName": "活",
+    "marketPrice": 10,
+    "acquisitionPath": [
+      1,
+      2,
+      3
+    ],
+    "bagLimitation": null,
+    "warehouseLimitation": null
+  },
+  "6": {
+    "level": "A",
+    "serialNumber": 6,
+    "fullName": "军团点",
+    "shortName": "团点",
+    "marketPrice": 0.2,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": null,
+    "warehouseLimitation": null
+  },
+  "7": {
+    "level": "B",
+    "serialNumber": 7,
+    "fullName": "鸡蛋",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 250,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 0,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "8": {
+    "level": "B",
+    "serialNumber": 8,
+    "fullName": "精品猪肉",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 400,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 0,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 2
+  },
+  "9": {
+    "level": "B",
+    "serialNumber": 9,
+    "fullName": "野生的粮食",
+    "shortName": "野粮",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 250,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 0,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "10": {
+    "level": "B",
+    "serialNumber": 10,
+    "fullName": "酿酒的粮食",
+    "shortName": "酿酒",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 400,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 0,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 2
+  },
+  "11": {
+    "level": "B",
+    "serialNumber": 11,
+    "fullName": "带肉的牛骨头",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 250,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 50,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "12": {
+    "level": "B",
+    "serialNumber": 12,
+    "fullName": "鲜红的辣椒",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 250,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 50,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "13": {
+    "level": "B",
+    "serialNumber": 13,
+    "fullName": "鸡翅",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 250,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 50,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "14": {
+    "level": "B",
+    "serialNumber": 14,
+    "fullName": "漏网的小鱼",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 250,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 50,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "15": {
+    "level": "B",
+    "serialNumber": 15,
+    "fullName": "灰炭石",
+    "shortName": "灰炭",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 250,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 50,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "16": {
+    "level": "B",
+    "serialNumber": 16,
+    "fullName": "凡晶石",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 250,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 50,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "17": {
+    "level": "B",
+    "serialNumber": 17,
+    "fullName": "黑岩石",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 400,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 100,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 2
+  },
+  "18": {
+    "level": "B",
+    "serialNumber": 18,
+    "fullName": "铁原石",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 400,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 200,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 2
+  },
+  "19": {
+    "level": "B",
+    "serialNumber": 19,
+    "fullName": "石英石",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 800,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 500,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 3
+  },
+  "20": {
+    "level": "B",
+    "serialNumber": 20,
+    "fullName": "蓝田玉",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 500,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 900,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "21": {
+    "level": "B",
+    "serialNumber": 21,
+    "fullName": "和田玉",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 1000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 1200,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 2
+  },
+  "22": {
+    "level": "B",
+    "serialNumber": 22,
+    "fullName": "青白玉",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 2000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 1200,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 3
+  },
+  "23": {
+    "level": "B",
+    "serialNumber": 23,
+    "fullName": "羊脂玉",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 2500,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 1300,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 4
+  },
+  "24": {
+    "level": "B",
+    "serialNumber": 24,
+    "fullName": "大理石",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 500,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 3700,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "25": {
+    "level": "B",
+    "serialNumber": 25,
+    "fullName": "猫眼石",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 500,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 3700,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "26": {
+    "level": "B",
+    "serialNumber": 26,
+    "fullName": "白松石",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 800,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 4560,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 2
+  },
+  "27": {
+    "level": "B",
+    "serialNumber": 27,
+    "fullName": "青金石",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 1600,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 3360,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 3
+  },
+  "28": {
+    "level": "B",
+    "serialNumber": 28,
+    "fullName": "群青",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 200,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 0,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "29": {
+    "level": "B",
+    "serialNumber": 29,
+    "fullName": "藤黄",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 200,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 0,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "30": {
+    "level": "B",
+    "serialNumber": 30,
+    "fullName": "孔雀绿",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 200,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 0,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 2
+  },
+  "31": {
+    "level": "B",
+    "serialNumber": 31,
+    "fullName": "炭黑",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 200,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 100,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 2
+  },
+  "32": {
+    "level": "B",
+    "serialNumber": 32,
+    "fullName": "朱砂",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 400,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 600,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 3
+  },
+  "33": {
+    "level": "B",
+    "serialNumber": 33,
+    "fullName": "五行结晶",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 400,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 1100,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 3
+  },
+  "34": {
+    "level": "B",
+    "serialNumber": 34,
+    "fullName": "大地结晶",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 500,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 500,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 4
+  },
+  "35": {
+    "level": "B",
+    "serialNumber": 35,
+    "fullName": "回城符",
+    "shortName": "",
+    "marketPrice": 30,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 400,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 0,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 1
+  },
+  "36": {
+    "level": "B",
+    "serialNumber": 36,
+    "fullName": "火纹玉",
+    "shortName": "",
+    "marketPrice": 1.1,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 90000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 0,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 3
+  },
+  "37": {
+    "level": "B",
+    "serialNumber": 37,
+    "fullName": "强化转移石",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 15000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 12500,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 4
+  },
+  "38": {
+    "level": "B",
+    "serialNumber": 38,
+    "fullName": "熔金石",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 15000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 12500,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 5
+  },
+  "39": {
+    "level": "B",
+    "serialNumber": 39,
+    "fullName": "精制元神成长丸",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 1500000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 1250000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 6
+  },
+  "40": {
+    "level": "B",
+    "serialNumber": 40,
+    "fullName": "洗炼之玉",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 900000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 750000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 7
+  },
+  "41": {
+    "level": "B",
+    "serialNumber": 41,
+    "fullName": "元神精粹",
+    "shortName": "精粹",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 150000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 125000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 7
+  },
+  "42": {
+    "level": "B",
+    "serialNumber": 42,
+    "fullName": "武力之精华",
+    "shortName": "武精",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 1800000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 1500000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 5
+  },
+  "43": {
+    "level": "B",
+    "serialNumber": 43,
+    "fullName": "智力之精化",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 1800000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 1500000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 5
+  },
+  "44": {
+    "level": "B",
+    "serialNumber": 44,
+    "fullName": "七曜玲珑石",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 300000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 250000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 5
+  },
+  "45": {
+    "level": "B",
+    "serialNumber": 45,
+    "fullName": "天星石",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 10000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 335000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 4
+  },
+  "46": {
+    "level": "B",
+    "serialNumber": 46,
+    "fullName": "柳树苗",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 200000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 200000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 4
+  },
+  "47": {
+    "level": "B",
+    "serialNumber": 47,
+    "fullName": "薰衣草苗",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 200000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 200000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 4
+  },
+  "48": {
+    "level": "B",
+    "serialNumber": 48,
+    "fullName": "土豆苗",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 200000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 200000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 4
+  },
+  "49": {
+    "level": "B",
+    "serialNumber": 49,
+    "fullName": "中级灵蕴树苗",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 6,
+          "count": 200000,
+          "diy": true
+        },
+        {
+          "goods": 2,
+          "count": 200000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    },
+    "legionLevel": 4
+  },
+  "50": {
+    "level": "B",
+    "serialNumber": 50,
+    "fullName": "丝制针线包",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 100,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "51": {
+    "level": "B",
+    "serialNumber": 51,
+    "fullName": "金刚凿",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 920,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "52": {
+    "level": "B",
+    "serialNumber": 52,
+    "fullName": "精制调味包",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 200,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "53": {
+    "level": "B",
+    "serialNumber": 53,
+    "fullName": "专业腌制料",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 1000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "54": {
+    "level": "B",
+    "serialNumber": 54,
+    "fullName": "井水",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 100,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "55": {
+    "level": "B",
+    "serialNumber": 55,
+    "fullName": "酵母",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 500,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "56": {
+    "level": "B",
+    "serialNumber": 56,
+    "fullName": "小铁锥",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 500,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "57": {
+    "level": "B",
+    "serialNumber": 57,
+    "fullName": "精铁锥",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 1000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "58": {
+    "level": "B",
+    "serialNumber": 58,
+    "fullName": "小凿子",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 230,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "59": {
+    "level": "B",
+    "serialNumber": 59,
+    "fullName": "精制凿",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 460,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "60": {
+    "level": "B",
+    "serialNumber": 60,
+    "fullName": "烟煤",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 110,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "61": {
+    "level": "B",
+    "serialNumber": 61,
+    "fullName": "松煤",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 460,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "62": {
+    "level": "B",
+    "serialNumber": 62,
+    "fullName": "木炭",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 50,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "63": {
+    "level": "B",
+    "serialNumber": 63,
+    "fullName": "竹炭",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 110,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "64": {
+    "level": "B",
+    "serialNumber": 64,
+    "fullName": "五彩香囊",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 200,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "65": {
+    "level": "B",
+    "serialNumber": 65,
+    "fullName": "墨石煤",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 920,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "66": {
+    "level": "B",
+    "serialNumber": 66,
+    "fullName": "金刚炭",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 220,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "67": {
+    "level": "B",
+    "serialNumber": 67,
+    "fullName": "武智宝典",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 5000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "68": {
+    "level": "B",
+    "serialNumber": 68,
+    "fullName": "桂圆",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 500,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "69": {
+    "level": "B",
+    "serialNumber": 69,
+    "fullName": "果脯",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 1000,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "70": {
+    "level": "B",
+    "serialNumber": 70,
+    "fullName": "七宝烟罗袋",
+    "shortName": "",
+    "marketPrice": 0,
+    "acquisitionPath": [
+      2,
+      3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 5,
+      "path": [
+        {
+          "goods": 2,
+          "count": 800,
+          "diy": true
+        }
+      ],
+      "expense": 0
+    }
+  },
+  "71":{
+    "level": "C",
+    "serialNumber": 71,
+    "fullName": "月光石",
+    "shortName": "",
+    "marketPrice": 4990,
+    "acquisitionPath": [
+      2,3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 0,
+      "levelLimitation": 12,
+      "path": [
+        {
+          "goods": 19, 
+          "count": 2,
+          "diy": true
+        },
+        {
+          "goods": 51, 
+          "count": 4,
+          "diy": true
+        },
+        {
+          "goods": 5, 
+          "count": 20,
+          "diy": true
+        }
+      ],
+      "expense": 0,
+      "luckyCompound": {
+        "probability": 0.01,
+        "outcomeGoods": 1,
+        "count": 1
+      }
+    },
+    "legionLevel": 0
+  },
+  "72": {
+    "level": "C",
+    "serialNumber": 72,
+    "fullName": "次级必伤之石",
+    "shortName": "次必",
+    "marketPrice": 10000,
+    "acquisitionPath": [
+      2,3
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999,
+    "compound": {
+      "profession": 0,
+      "levelLimitation": 13,
+      "path": [
+        {
+          "goods": 71, 
+          "count": 10,
+          "diy": true
+        },
+        {
+          "goods": 50, 
+          "count": 1,
+          "diy": true
+        },
+        {
+          "goods": 5, 
+          "count": 350,
+          "diy": true
+        }
+      ],
+      "expense": 0,
+      "luckyCompound": {
+        "probability": 0.01,
+        "outcomeGoods": 73,
+        "count": 1
+      }
+    },
+    "legionLevel": 0
+  },
+  "73": {
+    "level": "D",
+    "serialNumber": 73,
+    "fullName": "必伤之石",
+    "shortName": "必杀",
+    "marketPrice": 4150000,
+    "acquisitionPath": [
+      4
+    ],
+    "bagLimitation": 9999,
+    "warehouseLimitation": 9999
+  }
+}

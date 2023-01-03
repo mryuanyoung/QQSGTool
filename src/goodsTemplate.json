@@ -1,0 +1,30 @@
+{
+  "level": "B",
+  "serialNumber": 1,
+  "fullName": "",
+  "shortName": "",
+  "marketPrice": 0,
+  "acquisitionPath": [
+    2,3
+  ],
+  "bagLimitation": 9999,
+  "warehouseLimitation": 9999,
+  "compound": {
+    "profession": 0,
+    "levelLimitation": 0,
+    "path": [
+      {
+        "goods": 1, 
+        "count": 1,
+        "diy": true
+      }
+    ],
+    "expense": 0,
+    "luckyCompound": {
+      "probability": 0.01,
+      "outcomeGoods": 1,
+      "count": 1
+    }
+  },
+  "legionLevel": 0
+}
