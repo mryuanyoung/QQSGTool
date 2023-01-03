@@ -1,4 +1,4 @@
-import { Goods, GoodsMap } from "./goods";
+import { Goods, GoodsMap, StepTreeNode } from "./goods";
 import { Levels } from "./const";
 import { CompoundResult, FormatGoods, FormatResult } from "./goods";
 
@@ -32,6 +32,7 @@ export function displayResult(goods: Goods, count: number, result: CompoundResul
   }
 
   return {
+    stepTree: result.grossGoods,
     expense: {
       grossExpense: formatText(result.grossExpense),
       levelAGoods,
@@ -44,7 +45,7 @@ export function displayResult(goods: Goods, count: number, result: CompoundResul
   }
 }
 
-function formatText(number: number): string {
+export function formatText(number: number): string {
   if (Math.abs(number) >= 1e8) {
     return number / 1e8 + 'e';
   }

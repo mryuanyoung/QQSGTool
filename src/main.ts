@@ -10,7 +10,7 @@ import { displayResult } from "./util";
   const target = entityMap[goods];
 
   if(target.compound){
-    const res = target.execCompound(count, entityMap);
+    const res = Goods.execCompound(target, count, entityMap);
     console.log(JSON.stringify(displayResult(target, count, res, entityMap)));
   }
   else{

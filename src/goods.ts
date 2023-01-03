@@ -1,4 +1,5 @@
 import { Levels } from "./const";
+import { formatText } from "./util";
 
 export class Goods {
   level?: string
@@ -16,15 +17,16 @@ export class Goods {
     Object.assign(this, goods);
   }
 
-  execCompound(count: number, goodsMap: GoodsMap): CompoundResult {
-    if (!this.compound) {
+  static execCompound(goods: Goods, count: number, goodsMap: GoodsMap): CompoundResult {
+    if (!goods.compound) {
       throw Error('此物品不可合成');
     }
 
     let singleGrossExpense = 0;
     const totalGoods: { [key: number]: GoodsCount } = {};
+    const children: StepTreeNode[] = [];
 
-    this.compound.path.forEach(({ goods, count: pathCount, diy }) => {
+    goods.compound.path.forEach(({ goods, count: pathCount, diy }) => {
       const entity = goodsMap[goods], totalCount = count * pathCount;
 
 
@@ -39,13 +41,19 @@ export class Goods {
 
       if (!diy || !entity.compound) {
         singleGrossExpense += entity.marketPrice * totalCount;
+        children.push({
+          serialNumber: entity.serialNumber,
+          name: entity.fullName,
+          count: formatText(totalCount),
+        })
         return;
       }
 
-      const compoundRes = entity.execCompound(totalCount, goodsMap);
+      const compoundRes = Goods.execCompound(entity, totalCount, goodsMap);
       const partialTotalGoods = compoundRes.totalGoods;
 
       singleGrossExpense += compoundRes.grossExpense;
+      children.push(compoundRes.grossGoods);
       const keys = Object.keys(partialTotalGoods);
       keys.forEach(key => {
         if (totalGoods[key]) {
@@ -59,7 +67,12 @@ export class Goods {
 
     return {
       grossExpense: singleGrossExpense,
-      grossGoods: this.compound.path.map(_ => ({ item: goodsMap[_.goods], count: _.count * count })),
+      grossGoods: {
+        serialNumber: goods.serialNumber,
+        name: goods.fullName,
+        count: formatText(count),
+        children
+      },
       totalGoods,
     }
   }
@@ -74,7 +87,7 @@ interface GoodsCount {
 }
 
 export interface CompoundResult {
-  grossGoods: GoodsCount[],
+  grossGoods: StepTreeNode,
   totalGoods: { [key: number]: GoodsCount },
   grossExpense: number,
 }
@@ -82,6 +95,7 @@ export interface CompoundResult {
 export interface FormatGoods { name: string, count: string }
 
 export interface FormatResult {
+  stepTree: StepTreeNode,
   expense: {
     grossExpense: string,
     levelBGoods: FormatGoods[],
@@ -91,6 +105,13 @@ export interface FormatResult {
     goods: FormatGoods[];
     interest: string,
   }
+}
+
+export interface StepTreeNode {
+  serialNumber: number,
+  name: string,
+  count: string,
+  children?: StepTreeNode[]
 }
 
 interface Compound {
