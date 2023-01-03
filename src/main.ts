@@ -11,7 +11,7 @@ import { displayResult } from "./util";
 
   if(target.compound){
     const res = target.execCompound(count, entityMap);
-    console.log(displayResult(res));
+    console.log(JSON.stringify(displayResult(target, count, res, entityMap)));
   }
   else{
     console.log(`${target.fullName}: ${target.marketPrice}`)

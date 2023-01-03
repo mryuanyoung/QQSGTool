@@ -1,7 +1,5 @@
 import { Levels } from "./const";
 
-const VIGOR = 5;
-
 export class Goods {
   level?: string
   serialNumber: number = 0
@@ -81,12 +79,18 @@ export interface CompoundResult {
   grossExpense: number,
 }
 
-export interface FormatGoods { name: string, count: number }
+export interface FormatGoods { name: string, count: string }
 
 export interface FormatResult {
-  grossExpense: number,
-  levelBGoods: FormatGoods[],
-  levelAGoods: FormatGoods[],
+  expense: {
+    grossExpense: string,
+    levelBGoods: FormatGoods[],
+    levelAGoods: FormatGoods[],
+  },
+  obtain: {
+    goods: FormatGoods[];
+    interest: string,
+  }
 }
 
 interface Compound {
